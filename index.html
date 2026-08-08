@@ -54,7 +54,8 @@
     max-width:340px;
     aspect-ratio:4/5;
     object-fit:cover;
-    border-radius:46% 54% 61% 39% / 50% 44% 56% 50%;
+    object-position:50% 22%;
+    border-radius:20px 20px 100px 20px;
     box-shadow:0 30px 60px -20px rgba(63,51,72,0.35);
   }
   @media (max-width:820px){
@@ -186,8 +187,8 @@
   }
   .blob{
     width:100%;
-    aspect-ratio:1;
-    border-radius:42% 58% 65% 35% / 45% 40% 60% 55%;
+    aspect-ratio:4/5;
+    border-radius:20px 20px 100px 20px;
     background:linear-gradient(135deg, var(--powder-pink), var(--mauve) 55%, var(--dusty-blue));
     position:relative;
     overflow:hidden;
@@ -195,6 +196,7 @@
   .blob img{
     width:100%; height:100%;
     object-fit:cover;
+    object-position:50% 20%;
     mix-blend-mode:normal;
   }
   .blob-caption{
@@ -447,6 +449,7 @@
       </div>
       <div class="about-text reveal">
         <p>Sto per completare la <strong>Laurea Magistrale in Farmacia</strong> alla Sapienza, ma la tecnologia è una passione che coltivo da tempo per conto mio: studio <strong>C, Python e Visual Basic</strong> in autonomia, e a settembre porto questo percorso a un livello superiore con un corso intensivo di <strong>JavaScript</strong> per diventare full stack developer. In parallelo continuo a seguire corsi e certificazioni in <strong>intelligenza artificiale</strong>.</p>
+        <p>Farmacia, liceo classico e programmazione sembrano tre strade diverse, ma per me sono la stessa: al <strong>classico</strong> ho imparato a decifrare sistemi di regole — greco e latino, sintassi e struttura — molto prima di incontrare quelle del codice. La chimica e la farmacologia mi hanno abituata al <strong>metodo scientifico</strong>: un'ipotesi, una verifica, un risultato coerente. Il codice non è una deviazione da questo percorso: è la stessa logica applicata a un linguaggio nuovo.</p>
         <p>In questi anni ho lavorato nel retail e nella consulenza dermocosmetica, dove ho imparato a leggere dati, costruire routine su misura e mantenere precisione anche sotto obiettivi stringenti — le stesse abitudini che oggi porto nello studio della programmazione: analisi, metodo, sicurezza nelle proprie capacità.</p>
         <p>Ho vissuto a <strong>Barcellona</strong> e a <strong>Sofia</strong>, esperienze che mi hanno abituata a muovermi con disinvoltura tra lingue e contesti diversi: parlo inglese fluentemente e mi muovo molto bene sia in francese che in spagnolo.</p>
       </div>
@@ -571,7 +574,7 @@
     </div>
     <div class="about-grid reveal" style="align-items:center;">
       <div class="blob" style="max-width:280px;">
-        <img src="images/archery.jpeg" alt="Fabiana durante il tiro con l'arco" onerror="this.parentElement.style.display='none'">
+        <img src="images/archery.jpeg" alt="Fabiana durante il tiro con l'arco" style="object-position:50% 62%;" onerror="this.parentElement.style.display='none'">
       </div>
       <div class="about-text">
         <p>Pratico <strong>tiro con l'arco</strong>: la stessa concentrazione, respiro controllato e precisione millimetrica che metto in laboratorio e, oggi, nelle prime righe di codice. Mira, metodo, costanza — non cambia molto da un campo di tiro a un editor di testo.</p>
